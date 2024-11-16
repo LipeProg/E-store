@@ -1,0 +1,26 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .app-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .app-main {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; /* Para deixar espaço para o Sidebar */
+    background-color: #f4f4f4;
+    margin-top: 80px;
+  }
+  
+  footer {
+    margin-top: auto;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+  }
+  

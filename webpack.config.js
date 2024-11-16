@@ -22,6 +22,10 @@ module.exports = {
         exclude: /node_modules/,  // Ignora node_modules
       },
       {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: 'asset/resource',
+      },
+      {
         test: /\.css$/,  // Para arquivos CSS
         use: ['style-loader', 'css-loader'],  // Para carregar CSS
       },

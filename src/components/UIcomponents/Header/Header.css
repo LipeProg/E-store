@@ -1,0 +1,16 @@
+.app-header {
+    width: 100%;  /* Garante que o header ocupe toda a largura da tela */
+    padding: 20px 0;  /* Ajuste o padding conforme necessário */
+    background-color: #517519;  /* Cor de fundo do header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  h1{
+    color: aliceblue;
+  }
