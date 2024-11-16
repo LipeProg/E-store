@@ -1,0 +1,82 @@
+/* src/components/GestaoDeUsuario/GestaoDeUsuario.css */
+.gestao-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo do link para voltar ao menu */
+  .voltar-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .voltar-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo do formulário de adicionar usuário */
+  .form-adicionar-usuario {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-adicionar-usuario input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .form-adicionar-usuario button {
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-adicionar-usuario button:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilos para a lista de usuários */
+  .lista-usuarios {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .usuario-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .usuario-item button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .usuario-item button:hover {
+    background-color: #c82333;
+  }
+  
+  .usuario-item span {
+    font-size: 16px;
+  }
+  

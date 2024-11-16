@@ -1,0 +1,78 @@
+/* src/components/ControleDeEstoque/Estoque.css */
+.estoque-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-adicionar-produto {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-adicionar-produto input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
+  
+  .form-adicionar-produto button {
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-adicionar-produto button:hover {
+    background-color: #218838;
+  }
+  
+  .lista-produtos {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .produto-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .produto-item button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .produto-item button:hover {
+    background-color: #c82333;
+  }
+  
+  .produto-item span {
+    font-size: 16px;
+  }
+  
+  .voltar-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .voltar-link:hover {
+    text-decoration: underline;
+  }

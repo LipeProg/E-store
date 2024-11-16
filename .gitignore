@@ -1,0 +1,51 @@
+# Dependências do Node
+node_modules/
+
+# Dependências de desenvolvimento
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Arquivos de build (gerados após a compilação)
+build/
+dist/
+
+# Arquivos de configuração do editor (VSCode, IntelliJ, etc)
+.vscode/
+.idea/
+
+# Arquivos de ambiente (se você usa variáveis de ambiente)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos de logs
+*.log
+
+# Sistema operacional (arquivos específicos do sistema)
+.DS_Store
+Thumbs.db
+
+# Arquivos de compilação de Babel (caso haja)
+coverage/
+
+# Arquivos de testes
+*.test.js
+*.test.jsx
+
+# Arquivos de configuração do IDE (opcional)
+*.sublime-workspace
+*.sublime-project
+
+# Diretórios temporários do sistema
+tmp/
+temp/
+
+# Dependências do Electron (se aplicável)
+node_modules/electron/
+
+# Arquivos do compilador TypeScript (caso esteja usando)
+tsconfig.tsbuildinfo

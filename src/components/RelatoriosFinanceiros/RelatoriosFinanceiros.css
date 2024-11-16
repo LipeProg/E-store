@@ -1,0 +1,56 @@
+/* src/components/RelatoriosFinanceiros/RelatoriosFinanceiros.css */
+
+.relatorios-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-voltar {
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .btn-voltar:hover {
+    background-color: #0056b3;
+  }
+  
+  .relatorios-lista {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f8f9fa;
+  }
+  
+  table td {
+    background-color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

@@ -1,0 +1,70 @@
+/* src/components/RegistroDeVendas/RegistroDeVendas.css */
+.registro-vendas-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-registrar-venda {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-registrar-venda input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
+  
+  .form-registrar-venda button {
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-registrar-venda button:hover {
+    background-color: #218838;
+  }
+  
+  .lista-vendas {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .venda-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .venda-item span {
+    font-size: 16px;
+  }
+  
+  /* Estilo do botão "Voltar para o Principal" */
+  .btn-voltar {
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .btn-voltar:hover {
+    background-color: #0056b3;
+  }
+  

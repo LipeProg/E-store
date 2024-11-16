@@ -1,0 +1,50 @@
+/* src/components/Main/Main.css */
+.main-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .menu-container {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    margin: 0;
+  }
+  
+  .menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .menu-link:hover {
+    background-color: #555;
+  }
+  
+  .content-container {
+    margin-top: 20px;
+  }
+  
+  .content-container h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .content-container p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
